@@ -31,12 +31,12 @@ let s:p.normal.warning = [ [ s:nord1, s:nord13 ] ]
 let s:p.normal.error = [ [ s:nord1, s:nord11 ] ]
 
 let s:p.inactive.left =  [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
-let s:p.inactive.middle = [ [ s:nord5, s:nord1 ] ]
-let s:p.inactive.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
+let s:p.inactive.middle = [ [ s:nord4, s:nord1 ] ]
+let s:p.inactive.right = [ [ s:nord4, s:nord1 ], [ s:nord5, s:nord1 ] ]
 
 let s:p.insert.left = [ [ s:nord1, s:nord6 ], [ s:nord5, s:nord1 ] ]
 let s:p.replace.left = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]
-let s:p.visual.left = [ [ s:nord1, s:nord7 ], [ s:nord5, s:nord1 ] ]
+let s:p.visual.left = [ [ s:nord1, s:nord15 ], [ s:nord5, s:nord1 ] ]
 
 let s:p.tabline.left = [ [ s:nord5, s:nord3 ] ]
 let s:p.tabline.middle = [ [ s:nord5, s:nord3 ] ]
