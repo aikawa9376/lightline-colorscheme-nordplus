@@ -5,7 +5,7 @@
 " Last Change: 2017/11/12 20:27:51
 " =============================================================================
 
-let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'vm': {}, 'visual': {}, 'tabline': {}}
+let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'v-multi': {}, 'visual': {}, 'tabline': {}}
 
 let s:nord0  = ["#2E3440", "NONE"]
 let s:nord1  = ["#3B4252", 0]
@@ -37,7 +37,7 @@ let s:p.inactive.right  = [ [ s:nord4, s:nord1  ], [ s:nord4, s:nord1 ] ]
 let s:p.insert.left     = [ [ s:nord1, s:nord6  ], [ s:nord4, s:nord1 ] ]
 let s:p.replace.left    = [ [ s:nord1, s:nord13 ], [ s:nord4, s:nord1 ] ]
 let s:p.visual.left     = [ [ s:nord1, s:nord15 ], [ s:nord4, s:nord1 ] ]
-let s:p.vm.left         = [ [ s:nord1, s:nord14 ], [ s:nord4, s:nord1 ] ]
+let s:p.v-multi.left    = [ [ s:nord1, s:nord14 ], [ s:nord4, s:nord1 ] ]
 
 let s:p.tabline.left    = [ [ s:nord4, s:nord3  ] ]
 let s:p.tabline.middle  = [ [ s:nord4, s:nord3  ] ]
