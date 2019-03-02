@@ -25,8 +25,8 @@ let s:nord14 = ["#A3BE8C", 2]
 let s:nord15 = ["#B48EAD", 5]
 
 let s:p.normal.left = [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
-let s:p.normal.middle = [ [ s:nord5, s:nord3 ] ]
-let s:p.normal.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
+let s:p.normal.middle = [ [ s:nord4, s:nord3 ] ]
+let s:p.normal.right = [ [ s:nord4, s:nord1 ], [ s:nord5, s:nord1 ] ]
 let s:p.normal.warning = [ [ s:nord1, s:nord13 ] ]
 let s:p.normal.error = [ [ s:nord1, s:nord11 ] ]
 
@@ -38,9 +38,9 @@ let s:p.insert.left = [ [ s:nord1, s:nord6 ], [ s:nord5, s:nord1 ] ]
 let s:p.replace.left = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]
 let s:p.visual.left = [ [ s:nord1, s:nord15 ], [ s:nord5, s:nord1 ] ]
 
-let s:p.tabline.left = [ [ s:nord5, s:nord3 ] ]
-let s:p.tabline.middle = [ [ s:nord5, s:nord3 ] ]
-let s:p.tabline.right = [ [ s:nord5, s:nord3 ] ]
+let s:p.tabline.left = [ [ s:nord4, s:nord3 ] ]
+let s:p.tabline.middle = [ [ s:nord4, s:nord3 ] ]
+let s:p.tabline.right = [ [ s:nord4, s:nord3 ] ]
 let s:p.tabline.tabsel = [ [ s:nord1, s:nord8 ] ]
 
 let g:lightline#colorscheme#nordplus#palette = lightline#colorscheme#flatten(s:p)
