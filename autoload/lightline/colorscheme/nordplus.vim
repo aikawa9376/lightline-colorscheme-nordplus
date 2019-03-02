@@ -36,7 +36,7 @@ let s:p.inactive.right  = [ [ s:nord5, s:nord1  ], [ s:nord5, s:nord1 ] ]
 
 let s:p.insert.left     = [ [ s:nord1, s:nord6  ], [ s:nord5, s:nord1 ] ]
 let s:p.replace.left    = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]
-let s:p.visual.left     = [ [ s:nord1, s:nord7  ], [ s:nord5, s:nord1 ] ]
+let s:p.visual.left     = [ [ s:nord1, s:nord9  ], [ s:nord5, s:nord1 ] ]
 
 let s:p.tabline.left    = [ [ s:nord5, s:nord3  ] ]
 let s:p.tabline.middle  = [ [ s:nord5, s:nord3  ] ]
