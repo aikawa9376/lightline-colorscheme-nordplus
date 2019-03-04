@@ -1,8 +1,8 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/nordplus.vim
-" Author: arcticicestudio
+" Author: aikawa9376
 " License: MIT
-" Last Change: 2017/11/12 20:27:51
+" Last Change: 2019-03-05 08:35:16
 " =============================================================================
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
@@ -24,23 +24,23 @@ let s:nord13 = ["#EBCB8B", 3]
 let s:nord14 = ["#A3BE8C", 2]
 let s:nord15 = ["#B48EAD", 5]
 
-let s:p.normal.left     = [ [ s:nord1, s:nord8, 'bold'  ], [ s:nord5, s:nord1 ] ]
+let s:p.normal.left     = [ [ s:nord1, s:nord8,  'bold'], [ s:nord5, s:nord1 ] ]
 let s:p.normal.middle   = [ [ s:nord5, s:nord3  ] ]
 let s:p.normal.right    = [ [ s:nord5, s:nord1  ], [ s:nord5, s:nord1 ] ]
 let s:p.normal.warning  = [ [ s:nord1, s:nord13 ] ]
 let s:p.normal.error    = [ [ s:nord1, s:nord11 ] ]
 
-let s:p.inactive.left   = [ [ s:nord1, s:nord8, 'bold'  ], [ s:nord5, s:nord1 ] ]
+let s:p.inactive.left   = [ [ s:nord1, s:nord8,  'bold'], [ s:nord5, s:nord1 ] ]
 let s:p.inactive.middle = [ [ s:nord5, s:nord1  ] ]
 let s:p.inactive.right  = [ [ s:nord5, s:nord1  ], [ s:nord5, s:nord1 ] ]
 
-let s:p.insert.left     = [ [ s:nord1, s:nord6  ], [ s:nord5, s:nord1 ] ]
-let s:p.replace.left    = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]
-let s:p.visual.left     = [ [ s:nord1, s:nord9  ], [ s:nord5, s:nord1 ] ]
+let s:p.insert.left     = [ [ s:nord1, s:nord6 , 'bold'], [ s:nord5, s:nord1 ] ]
+let s:p.replace.left    = [ [ s:nord1, s:nord13, 'bold'], [ s:nord5, s:nord1 ] ]
+let s:p.visual.left     = [ [ s:nord1, s:nord9 , 'bold'], [ s:nord5, s:nord1 ] ]
 
 let s:p.tabline.left    = [ [ s:nord5, s:nord3  ] ]
 let s:p.tabline.middle  = [ [ s:nord5, s:nord3  ] ]
 let s:p.tabline.right   = [ [ s:nord5, s:nord3  ] ]
-let s:p.tabline.tabsel  = [ [ s:nord1, s:nord8, 'bold'  ] ]
+let s:p.tabline.tabsel  = [ [ s:nord1, s:nord8,  'bold'] ]
 
 let g:lightline#colorscheme#nordplus#palette = lightline#colorscheme#flatten(s:p)
