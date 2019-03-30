@@ -8,15 +8,15 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 let s:nord0  = ["#2E3440", "NONE"]
-let s:nord1  = ["#3B4252", 0]
+let s:nord1  = ["#073642", 0]
 let s:nord2  = ["#434C5E", "NONE"]
-let s:nord3  = ["#4C566A", 8]
+let s:nord3  = ["#002B36", 8]
 let s:nord4  = ["#D8DEE9", "NONE"]
 let s:nord5  = ["#E5E9F0", 7]
 let s:nord6  = ["#ECEFF4", 15]
 let s:nord7  = ["#8FBCBB", 14]
 let s:nord8  = ["#88C0D0", 6]
-let s:nord9  = ["#81A1C1", 4]
+let s:nord9  = ["#B48EAD", 4]
 let s:nord10 = ["#5E81AC", 12]
 let s:nord11 = ["#BF616A", 1]
 let s:nord12 = ["#D08770", 11]
